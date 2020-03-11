@@ -6,7 +6,7 @@ const MyProfile = ({myprofile}) => {
     return (
         <div>
         <h1>Marvins Page</h1>
-        <img alt="marvin" scr={myprofile.avatar_url}/>
+        <img alt="marvin" src={myprofile.avatar_url}/>
         <p>location: {myprofile.location}</p>
         <p>My followers: {myprofile.followers}</p>
         </div>

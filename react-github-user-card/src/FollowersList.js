@@ -8,8 +8,8 @@ const FollowersList = (props) => {
 
     return(
         props.followers.map(item => 
-            <div className="card_div">
-            <h1>Marvins Followers List</h1>
+            <div key={item.id} className="card_div">
+            <h1>Marvins Followers </h1>
             <FollowersCard followers={item}/>
             </div>)
     )
